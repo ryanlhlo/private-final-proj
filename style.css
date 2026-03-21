@@ -45,3 +45,8 @@ body { font-family: 'Georgia', serif; line-height: 1.6; color: #333; background:
 /* ===== FOOTER ===== */
 .footer { background: #34495e; color: white; text-align: center; padding: 2rem 0; margin-top: 4rem; }
 
+/* FOOTER LINKS: Exact spacing and hover */
+.footer-nav a:hover { color: #3498db; text-decoration: underline; }
+.footer-nav { font-family: Georgia, serif; }
+
+
