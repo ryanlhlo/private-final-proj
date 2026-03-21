@@ -7,15 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ===== HEADER ===== CHANGE: Streamlined from original multi-menu into single bar -->
   <header class="site-header">
     <nav class="nav container">
       <a href="index.html" class="logo">Project Gutenberg</a>
+      <form class="search-form">
+        <input type="search" placeholder="Quick search">
+        <button type="submit">Go!</button>
+      </form>
       <ul class="nav-list">
-        <li><a href="books.html">Browse</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Donate</a></li>
+        <li><a href="#">Frequently Downloaded</a></li>
+        <li><a href="#">Main Categories</a></li>
+        <li><a href="#">Reading Lists</a></li>
+        <li><a href="#">Search Options</a></li>
       </ul>
     </nav>
   </header>
@@ -23,12 +27,8 @@
   <!-- ===== HERO ===== CHANGE: Added prominent search; original is text-heavy -->
   <section class="hero">
     <div class="container">
-      <h1>75,000+ Free eBooks</h1>
-      <p>Classic literature, digitized by volunteers. No fees, no apps needed.</p>
-      <form class="search-form">
-        <input type="search" placeholder="Search by title, author...">
-        <button type="submit">Search</button>
-      </form>
+      <h1>Project Gutenberg is a library of over 75,000 free eBooks</h1>
+      <p>Choose among free epub and Kindle eBooks, download them or read them online. You will find the world's great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy.</p>
     </div>
   </section>
 
@@ -56,10 +56,65 @@
     <!-- Add 2-3 more [page:0] -->
   </section>
 
-  <footer class="footer">
-    <p>&copy; Project Gutenberg. Volunteer-driven since 1971.</p>
-  </footer>
+  <div class="card">
+            <h2>Get Help</h2>
+            <p>Need assistance finding a book or downloading a file? Check out our guides.</p>
+            <ul>
+                <li><a href="#">How to read on your phone</a></li>
+                <li><a href="#">How to send to Kindle</a></li>
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <li><a href="#">Report an Error</a></li>
+            </ul>
+        </div>
 
+        <!-- Column 3 -->
+        <div class="card">
+            <div class="social-section">
+                <h2>Our Social Media</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-link dark-blue" title="Facebook">
+                        <svg viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
+                    </a>
+                    <a href="#" class="social-link light-blue" title="Mastodon">
+                        <svg viewBox="0 0 24 24"><path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.541-.809 3.541-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.433 4.014.536c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.424.398-5.424zM11.497 15.221h-2.12v-5.41c0-1.294-.492-1.943-1.476-1.943-1.084 0-1.626.744-1.626 2.233v3.109h-1.93v-3.109c0-1.489-.542-2.233-1.626-2.233-.984 0-1.475.649-1.475 1.943v5.41H1.124V9.612c0-1.39.42-2.493 1.26-3.31.855-.83 1.933-1.245 3.235-1.245 1.54 0 2.65.65 3.33 1.95.09.172.16.353.21.542.05-.189.12-.37.21-.542.68-1.3 1.79-1.95 3.33-1.95 1.302 0 2.38.415 3.235 1.245.84.817 1.26 1.92 1.26 3.31v5.609z"/></svg>
+                    </a>
+                    <a href="#" class="social-link light-blue" title="Bluesky">
+                        <svg viewBox="0 0 24 24"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.905C2.566 1.045 0 2.627 0 6.002c0 2.305.86 6.014 1.533 7.042 1.42 2.167 4.413 2.81 7.218 2.375-3.82.723-6.446 2.35-6.446 5.143 0 3.27 4.108 3.12 9.695-.807l.001-.001.001.001c5.587 3.927 9.695 4.077 9.695.807 0-2.793-2.626-4.42-6.446-5.143 2.805.435 5.798-.208 7.218-2.375.673-1.028 1.533-4.737 1.533-7.042 0-3.375-2.566-4.957-5.202-2.893-2.752 1.852-5.711 5.791-6.798 7.905z"/></svg>
+                    </a>
+                </div>
+            </div>
+          <div class="social-section">
+                <h2>News Feeds of new eBooks</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-link dark-blue" title="Facebook News">
+                        <svg viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
+                        <span class="news-label">News</span>
+                    </a>
+                    <a href="#" class="social-link light-blue" title="Mastodon News">
+                        <svg viewBox="0 0 24 24"><path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.541-.809 3.541-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.433 4.014.536c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.424.398-5.424zM11.497 15.221h-2.12v-5.41c0-1.294-.492-1.943-1.476-1.943-1.084 0-1.626.744-1.626 2.233v3.109h-1.93v-3.109c0-1.489-.542-2.233-1.626-2.233-.984 0-1.475.649-1.475 1.943v5.41H1.124V9.612c0-1.39.42-2.493 1.26-3.31.855-.83 1.933-1.245 3.235-1.245 1.54 0 2.65.65 3.33 1.95.09.172.16.353.21.542.05-.189.12-.37.21-.542.68-1.3 1.79-1.95 3.33-1.95 1.302 0 2.38.415 3.235 1.245.84.817 1.26 1.92 1.26 3.31v5.609z"/></svg>
+                        <span class="news-label" style="color: #4a99e9;">News</span>
+                    </a>
+                    <a href="#" class="social-link light-blue" title="Bluesky News">
+                        <svg viewBox="0 0 24 24"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.905C2.566 1.045 0 2.627 0 6.002c0 2.305.86 6.014 1.533 7.042 1.42 2.167 4.413 2.81 7.218 2.375-3.82.723-6.446 2.35-6.446 5.143 0 3.27 4.108 3.12 9.695-.807l.001-.001.001.001c5.587 3.927 9.695 4.077 9.695.807 0-2.793-2.626-4.42-6.446-5.143 2.805.435 5.798-.208 7.218-2.375.673-1.028 1.533-4.737 1.533-7.042 0-3.375-2.566-4.957-5.202-2.893-2.752 1.852-5.711 5.791-6.798 7.905z"/></svg>
+                        <span class="news-label" style="color: #4a99e9;">NEWS</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <footer class="footer" style="background: #2c3e50; padding: 2rem 0; margin-top: 4rem;">
+  <div class="container">
+    <nav class="footer-nav" style="margin-bottom: 1.5rem; text-align: center;">
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">About Project Gutenberg</a> |
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">Private Policy</a> |
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">Permissions</a> |
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">Terms of Use</a> |
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">Contact Us</a> |
+      <a href="#" style="color: white; margin: 0 0.3rem; text-decoration: none; font-size: 0.9rem;">Help</a>
+    </nav>
+  </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
