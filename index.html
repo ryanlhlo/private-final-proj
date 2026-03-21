@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Gutenberg - Free eBooks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== CHANGE: Streamlined from original multi-menu into single bar -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Project Gutenberg</a>
+      <ul class="nav-list">
+        <li><a href="books.html">Browse</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== CHANGE: Added prominent search; original is text-heavy -->
+  <section class="hero">
+    <div class="container">
+      <h1>75,000+ Free eBooks</h1>
+      <p>Classic literature, digitized by volunteers. No fees, no apps needed.</p>
+      <form class="search-form">
+        <input type="search" placeholder="Search by title, author...">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED BOOKS ===== -->
+  <section class="container">
+    <h2>Featured Books</h2>
+    <div class="books-grid">
+      <article class="book-card">
+        <div class="book-cover"></div> <!-- Placeholder image -->
+        <h3>Frankenstein</h3>
+        <p>Mary Shelley</p>
+        <a href="book.html">View</a>
+      </article>
+      <!-- Add 7-8 more similar cards with dummy classics [page:0] -->
+    </div>
+  </section>
+
+  <!-- ===== QUICK FAQ ===== Uses JS toggle -->
+  <section class="container">
+    <h2>Quick Help</h2>
+    <div class="faq-item">
+      <button class="faq-toggle">How to read eBooks?</button>
+      <div class="faq-answer">Use any browser or e-reader. EPUB/Kindle formats available.</div>
+    </div>
+    <!-- Add 2-3 more [page:0] -->
+  </section>
+
+  <footer class="footer">
+    <p>&copy; Project Gutenberg. Volunteer-driven since 1971.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
