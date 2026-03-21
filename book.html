@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma by Jane Austen | Project Gutenberg</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Project Gutenberg</a>
+      <ul class="nav-list">
+        <li><a href="books.html">Browse</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container" style="padding: 3rem 0;">
+    <!-- BOOK HEADER: Prominent title/author -->
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; margin-bottom: 3rem;">
+      <div>
+        <div class="book-cover" style="width: 300px; height: 400px; background: linear-gradient(45deg, #ff6b6b, #ee5a52); margin-bottom: 1rem;"></div>
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Emma</h1>
+        <p style="font-size: 1.3rem; color: #666;">by Jane Austen</p>
+      </div>
+
+      <!-- DOWNLOADS TABLE: Most prominent change from original -->
+      <div>
+        <h2>Download Free</h2>
+        <table class="download-table">
+          <thead>
+            <tr><th>Format</th><th>Size</th><th>Action</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>EPUB</td><td>450 KB</td><td><a href="#" class="btn">Download</a></td></tr>
+            <tr><td>Kindle</td><td>620 KB</td><td><a href="#" class="btn">Download</a></td></tr>
+            <tr><td>Plain Text</td><td>980 KB</td><td><a href="#" class="btn">Download</a></td></tr>
+            <tr><td>HTML</td><td>1.2 MB</td><td><a href="#" class="btn">Download</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- BOOK INFO: Collapsible sections -->
+    <div class="faq-item">
+      <button class="faq-toggle">Book Information</button>
+      <div class="faq-answer">
+        <p><strong>Published:</strong> 1815 | <strong>Language:</strong> English | <strong>Subjects:</strong> Romance, Social commentary</p>
+        <p>Emma Woodhouse, handsome, clever, and rich, has no need for marriage—until she begins meddling in others' romantic lives.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-toggle">Other Books by Jane Austen</button>
+      <div class="faq-answer">
+        <div class="books-grid">
+          <article class="book-card"><div class="book-cover"></div><h3>Pride and Prejudice</h3></article>
+          <article class="book-card"><div class="book-cover"></div><h3>Sense and Sensibility</h3></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Public domain. Free forever.</p>
+  </footer>
+
+  <style>
+    /* BOOK PAGE ONLY: Button styling */
+    .btn { background: #27ae60; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; }
+    .btn:hover { background: #2ecc71; }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
