@@ -3,62 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Project Gutenberg</title>
+  <title>About Project Gutenberg</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- HEADER: Same across all pages -->
+  <!-- Shared header/navigation -->
   <header class="site-header">
     <nav class="nav container">
       <a href="index.html" class="logo">Project Gutenberg</a>
       <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
         <li><a href="books.html">Browse</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" class="active">About</a></li>
         <li><a href="#">Help</a></li>
         <li><a href="#">Donate</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- MAIN CONTENT: About sections with toggles -->
-  <section class="container" style="padding: 3rem 0;">
+  <main class="container" style="padding: 3rem 0;">
+    <!-- Same top heading as original -->
     <h1>About Project Gutenberg</h1>
-    
-    <!-- MISSION: Simplified from original wall-of-text -->
-    <div class="faq-item">
-      <button class="faq-toggle">Our Mission</button>
-      <div class="faq-answer">
-        <p>Project Gutenberg offers 75,000+ free eBooks. No registration, no fees, no ads. Preserving literature for everyone, forever.</p>
-      </div>
-    </div>
 
-    <div class="faq-item">
-      <button class="faq-toggle">History</button>
-      <div class="faq-answer">
-        <p>Started in 1971 by Michael Hart. First eBook: U.S. Declaration of Independence. Now run by 50,000+ volunteers worldwide.</p>
-      </div>
-    </div>
+    <!-- Intro paragraphs: same ideas, new text -->
+    <p>Project Gutenberg is an online library offering tens of thousands of free eBooks, focusing mainly on classic literature and historical texts that are in the public domain.</p>
+    <p>The project was started by Michael Hart in 1971, who pioneered the idea of digital books. His original vision still shapes Project Gutenberg today.</p>
+    <p>Since then, volunteers around the world have worked to scan, type, proofread, and format texts so that anyone can read them on computers, phones, and dedicated e-readers.</p>
+    <p>The entire collection is free to access and free to keep. There are no subscriptions or paywalls.</p>
 
-    <div class="faq-item">
-      <button class="faq-toggle">Volunteers</button>
-      <div class="faq-answer">
-        <p>Proofreaders, formatters, programmers. Anyone can help at <a href="https://www.pgdp.net">PG Distributed Proofreaders</a>.</p>
-      </div>
-    </div>
+    <!-- Mission statement section -->
+    <h2>Project Gutenberg Mission Statement</h2>
+    <p><em>Our mission is to support the creation and sharing of eBooks.</em></p>
+    <p>A longer essay by founder Michael Hart explains this mission and the ideas that guide the project’s activities.</p>
 
-    <div class="faq-item">
-      <button class="faq-toggle">Legal Stuff</button>
-      <div class="faq-answer">
-        <p>All books are public domain (copyright expired). Plain text, HTML, EPUB, Kindle. Use freely but attribute source.</p>
-      </div>
-    </div>
-  </section>
+    <!-- “More about” section: mirrors original list -->
+    <h2>More about Project Gutenberg</h2>
+    <p>To explore different aspects of the project, you can visit topics such as:</p>
+    <ul>
+      <li><a href="#">Background, history, and philosophy</a> – essays and articles that explain how the project began and how it has evolved.</li>
+      <li><a href="#">Partners and affiliates</a> – organizations that collaborate with Project Gutenberg.</li>
+      <li><a href="#">Help and how‑to</a> – guides for finding, downloading, and reading eBooks.</li>
+      <li><a href="#">Project Gutenberg Literary Archive Foundation</a> – the nonprofit organization that operates the project and manages donations.</li>
+      <li><a href="#">Ways to donate</a> – options for supporting the long‑term preservation and growth of the collection.</li>
+    </ul>
+  </main>
 
   <footer class="footer">
-    <p>&copy; Project Gutenberg. Making the world literate since 1971.</p>
+    <p>&copy; Project Gutenberg. Free eBooks for the world.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
