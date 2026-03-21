@@ -13,6 +13,9 @@ body { font-family: 'Georgia', serif; line-height: 1.6; color: #333; background:
 .nav-list a:hover { background: #34495e; }
 @media (max-width: 768px) { .nav-list { display: none; } } /* Mobile: Add hamburger later if needed */
 
+/* Sentence spacing: one line between each sentence */
+.sentence { display: block; margin-bottom: 1.5em;  /* Adjust this value for more/less space */ line-height: 1.4;}
+
 /* ===== HERO/MAIN SECTIONS ===== */
 .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 4rem 0; }
 .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
